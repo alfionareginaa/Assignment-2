@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+  background-color: white;
+}
+
+nav {
+  background-color: white;
+  height: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: right;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  height: 100%;
+}
+
+a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 36px 30px 36px 30px;
+}
+
+.biodata {
+  display: flex;
+  background-color: white;
+  padding: 24px 20px;
+  gap: 100px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.biodata-kiri-text {
+  display: inline-block;
+  margin-left: 24px;
+  vertical-align: top;
+}
+
+.biodata-kiri-text h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.biodata-kiri-text p {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.biodata-kanan {
+  padding-left: 28px;
+  border-left: 2px solid #d1d1d198;
+}
+
+img {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  object-position: center;
+  display: inline-block;
+}
+
+.button1 {
+  color: white;
+  background-color: blue;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid blue;
+}
+
+.button1:hover {
+  color: white;
+  background-color: blue;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid blue;
+}
+
+.button2 {
+  border: 2px solid green;
+  color: green;
+  background-color: transparent;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button2:hover {
+  border: 2px solid green;
+  color: green;
+  background-color: transparent;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+td:first-child {
+  font-weight: 600;
+  width: 150px;
+}
+
+.field {
+  width: 100%;
+  box-sizing: border-box;
+  height: 26px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form p {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.button-submit {
+  width: 100%;
+  height: 30px;
+  margin-top: 12px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: 2px solid green;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: green;
+  color: white;
+  border: 2px solid green;
+  cursor: pointer;
+}

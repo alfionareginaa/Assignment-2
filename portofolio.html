@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script src="js/portofolio.js"></script>
+    <title>Portofolio</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#" target="_blank">HOME</a></li>
+        <li><a href="#" target="_blank">PRODUCT</a></li>
+        <li><a href="#" target="_blank">GALLERY</a></li>
+        <li><a href="#" target="_blank">BLOG</a></li>
+        <li><a href="#" target="_blank">INVENTORY</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div class="biodata">
+        <div class="biodata-kiri">
+          <img src="img/fiona.png" />
+
+          <div class="biodata-kiri-text">
+            <h2 id="nama">Alfiona Reggina</h2>
+            <p id="role">Front End Designer</p>
+            <button type="button" class="button1" onclick="myFunction()">Edit</button>
+            <button type="button" class="button2">Resume</button>
+          </div>
+        </div>
+
+        <div class="biodata-kanan">
+          <table>
+            <tr>
+              <td>Availability</td>
+              <td id="availability">Full Time</td>
+            </tr>
+            <tr>
+              <td>Usia</td>
+              <td id="usia">19</td>
+            </tr>
+            <tr>
+              <td>Lokasi</td>
+              <td id="lokasi">Jakarta</td>
+            </tr>
+            <tr>
+              <td>Pengalaman</td>
+              <td id="pengalaman">2</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td id="email">alfnna.bungaa@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="form" id="myForm">
+        <form>
+          <p>Nama</p>
+          <input class="field" type="text" id="inputNama"/>
+          <br />
+          <p>Role</p>
+          <input class="field" type="text" id="inputRole"/>
+          <br />
+          <p>Availability</p>
+          <input class="field" type="text" id="inputAvailability"/>
+          <br />
+          <p>Usia</p>
+          <input class="field" type="text" id="inputUsia"/>
+          <br />
+          <p>Lokasi</p>
+          <input class="field" type="text" id="inputLokasi"/>
+          <br />
+          <p>Pengalaman</p>
+          <input class="field" type="text" id="inputPengalaman"/>
+          <br />
+          <p>Email</p>
+          <input class="field" type="text" id="inputEmail"/>
+          <br />
+          <input class="button-submit" type="button" value="Submit" onclick="saveForm()" />
+        </form>
+      </div>
+    </div>
+    
+  </body>
+</html>
